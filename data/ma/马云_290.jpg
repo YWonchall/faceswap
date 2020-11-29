@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>源站错误 | admin.taodianjia.com</title>
+    <link href="/yjs-cgi/static/css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+    html,
+    body {
+      width: 100%;
+      height: 100%;
+      font-size: 15px;
+    }
+    body {
+      background: #fff;
+    }
+    .btn {
+      padding: 8px 20px;
+    }
+    .btn:hover,
+    .btn:focus {
+      color: #fff;
+      text-decoration: none;
+    }
+    .btn-red {
+      color: #fff;
+      background-color: #247db0;
+      border-color: #247db0;
+    }
+    .blue {
+      color: #247db0;
+    }
+    .red {
+      color: #e2484a;
+    }
+    .err_top{
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+    .err_top p{
+      padding-top: 12px;
+      padding-left: 0;
+      margin-bottom: 0;
+    }
+    .err_text {
+      background-color: #247db0;
+      color: #fff;
+      padding-top: 24px;
+      padding-bottom: 24px;
+      margin-bottom: 48px;
+    }
+    .err_text h1 {
+      font-size: 32px;
+      font-weight: 200;
+      margin-bottom: 10px;
+    }
+    .err_text h1 small {
+      font-size: 18px;
+      color: #fff;
+      font-weight: 200;
+      padding-left: 10px;
+    }
+    .err_text p {
+      font-size: 20px;
+      line-height: 30px;
+      font-weight: 200;
+    }
+    .err_text p a {
+      color: #fff;
+    }
+    .err_text p.info {
+      padding-bottom: 20px;
+    }
+    .err_pic {
+      padding-bottom: 48px;
+    }
+    .err_pic .icon {
+      width: 125px;
+      height: 131px;
+      position: relative;
+    }
+    .err_pic .icon .err_icon {
+      display: block;
+      height: 121px;
+    }
+    .err_pic .icon .browser_colour {width: 125px;background-repeat: no-repeat;}
+    .err_pic .icon .browser_gray {width: 125px;background-repeat: no-repeat;}
+    .err_pic .icon .yjs_colour {width: 132px;background-repeat: no-repeat;}
+    .err_pic .icon .yjs_gray {width: 132px;background-repeat: no-repeat;}
+    .err_pic .icon .server_colour {width: 124px;background-repeat: no-repeat;}
+    .err_pic .icon .server_gray {width: 124px;background-repeat: no-repeat;}
+    .err_pic .icon .status {
+      width: 46px;
+      height: 46px;
+      position: absolute;
+      bottom: -10px;
+      right: 0;
+    }
+    .err_pic .icon .status_ok {background-repeat: no-repeat;}
+    .err_pic .icon .status_no {background-repeat: no-repeat;}
+    .err_pic .arrow {
+      padding-top: 10px;
+    }
+    .err_pic p {
+      padding-top: 20px;
+      font-weight: 200;
+      line-height: 30px;
+      font-size: 16px;
+    }
+    .err_pic p span {
+      display: block;
+    }
+    .err_pic p span.bold {
+      font-weight: 400;
+    }
+    .err_foot {
+      line-height: 50px;
+      font-size: 14px;
+    }
+    .err_foot p {
+      padding-top: 15px;
+      line-height: 20px;
+      font-weight: 200;
+      color: #333;
+    }
+    .err_foot p span {
+      display: inline-block;
+      max-width: 200px;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+    .err_foot p a {
+      color: #333;
+    }
+    .err_foot .navbar-default {
+      background-color: #fcfcfc;
+      border-color: #ececec;
+    }
+    .err_pic .icon .browser_colour{background-position:-7px 0px}.err_pic .icon .browser_gray{background-position:-7px -124px}.err_pic .icon .yjs_colour{background-position:0px -248px}.err_pic .icon .yjs_gray{background-position:0px -372px}.err_pic .icon .server_colour{background-position:-8px -496px}.err_pic .icon .server_gray{background-position:-8px -620px}.err_pic .icon .status_ok{background-position:-86px -744px}.err_pic .icon .status_no{background-position:-86px -793px}.err_pic .icon .browser_colour,.err_pic .icon .browser_gray,.err_pic .icon .yjs_colour,.err_pic .icon .yjs_gray,.err_pic .icon .server_colour,.err_pic .icon .server_gray,.err_pic .icon .status_ok,.err_pic .icon .status_no{background-image: url(/yjs-cgi/static/images/style_500_z.png)}
+    </style>
+  </head>
+  <body>
+    <div class="err_top">
+    <div class="container">
+
+        <div class="col-md-offset-1 pull-left">
+            <p>如果您是网站管理员，点击查看<a href="https://su.baidu.com/" target="_blank">如何修复</a>。</p>
+        </div>
+
+        <div class="col-md-offset-10 pull-rigth">
+            <a href="#" onclick="document.cookie='yjs_use_ob=0;path=/';window.location.reload();return false;" class="btn btn-red" role="button">刷新重试</a>
+        </div>
+    </div>
+</div>
+
+    <div class="err_text">
+      <div class="container">
+          <div class="col-md-offset-1">
+            <h1>502<small>网关错误，连接源站失败</small></h1>
+            <p class="info">DuEdge Event ID: 98f80059a8b82e28 <br /> 你的IP: 219.231.169.215</p>
+          </div>
+      </div>
+    </div>
+    <div class="err_pic">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-2 col-md-2 col-md-offset-1 text-center">
+            <div class = "icon center-block">
+              <i class="err_icon browser_colour"></i>
+              <i class="status status_ok"></i>
+            </div>
+            <p>
+              <span>您的浏览器</span>
+              <span class="blue bold">工作正常</span>
+            </p>
+          </div>
+          <div class="col-lg-2 col-md-2 arrow center-block">
+            <img src="/yjs-cgi/static/images/icon-arrow.png" class="img-responsive center-block">
+          </div>
+          <div class="col-lg-2 col-md-2 text-center">
+            <div class = "icon center-block">
+              <i class="err_icon yjs_colour"></i>
+              <i class="status status_ok"></i>
+            </div>
+            <p>
+              <span>CDN节点</span>
+              <span class="blue bold">工作正常</span>
+            </p>
+          </div>
+          <div class="col-lg-2 col-md-2 arrow center-block">
+            <img src="/yjs-cgi/static/images/icon-arrow.png" class="img-responsive center-block">
+          </div>
+          <div class="col-lg-2 col-md-2 text-center">
+            <div class = "icon center-block">
+              <i class="err_icon server_colour"></i>
+              <i class="status status_no"></i>
+            </div>
+            <p>
+              <span>源站</span>
+              <span class="red bold">网关错误</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  <div class="err_foot">
+    <nav class="navbar navbar-default navbar-fixed-bottom">
+      <div class="container">
+        <div class="col-lg-8">
+          <p class="info">
+            <span>DuEdge Event ID</span>
+            <span>98f80059a8b82e28 </span>
+            <span> | </span>
+            <span> 你的IP:</span>
+            <span>219.231.169.215 </span>
+            <span> | </span>
+            <span> 域名信息:</span>
+            <span>admin.taodianjia.com</span>
+          </P>
+        </div>
+
+        <div class="col-lg-4">
+          <p>
+           <a href="https://su.baidu.com/" target="_blank">百度云加速</a>用心对待每一次访问！
+            <a href="http://anquan.baidu.com/bbs/forum.php?mod=viewthread&tid=371363&page=1&extra=" target="_blank">帮助支持</a> |
+            <a href="http://anquan.baidu.com/bbs/forum-121-1.html" target="_blank">产品论坛</a>
+          </p>
+         </div>
+
+       </div>
+   </nav>
+</div>
+
+  </body>
+</html>
